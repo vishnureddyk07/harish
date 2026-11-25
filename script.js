@@ -1,9 +1,9 @@
 const siteContent = {
   name: "Kathle Harish Kumar",
-  city: "[CITY]",
+  city: "Hyderabad",
   phone: "+91 9398294547",
   email: "kathleharishkumar40@gmail.com",
-  address: "[OFFICE ADDRESS]\n[CITY], [STATE]",
+  address: "[OFFICE ADDRESS]\nHyderabad, [STATE]",
   officeHours: "Monday – Saturday · 10:00 AM – 7:00 PM",
   established: "—",
   stats: [
@@ -46,11 +46,6 @@ const siteContent = {
     { label: "Practice", value: "[COURTS / JURISDICTION]" },
     { label: "Experience", value: "[YEARS OF EXPERIENCE]" },
     { label: "Areas", value: "[PRACTICE AREAS]" }
-  ],
-  testimonials: [
-    { quote: "Replace this text with an authentic client testimonial, used with the client's informed permission.", attribution: "Placeholder testimonial", placeholder: true },
-    { quote: "Add genuine feedback here only after confirming its accuracy and receiving approval to publish.", attribution: "Placeholder testimonial", placeholder: true },
-    { quote: "This sample is not a client statement. Replace it with verified feedback before the site goes live.", attribution: "Placeholder testimonial", placeholder: true }
   ]
 };
 
@@ -108,13 +103,6 @@ renderList("#process-grid", siteContent.process, (item, index) => `
 renderList("#profile-details", siteContent.profile, (item) => `
   <div class="profile-detail"><dt>${escapeHtml(item.label)}</dt><dd>${escapeHtml(item.value)}</dd></div>`);
 
-renderList("#testimonials-grid", siteContent.testimonials, (item) => `
-  <article class="testimonial-card${item.placeholder ? " placeholder" : ""}">
-    <span class="testimonial-quote-mark" aria-hidden="true">“</span>
-    <blockquote>${escapeHtml(item.quote)}</blockquote>
-    <div class="testimonial-attribution"><span class="testimonial-avatar" aria-hidden="true">—</span><span>${escapeHtml(item.attribution)}</span></div>
-  </article>`);
-
 const contactList = document.querySelector("#contact-list");
 if (contactList) {
   contactList.innerHTML = [
@@ -158,7 +146,7 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") closeMenu();
 });
 
-const revealElements = document.querySelectorAll(".reveal, .practice-card, .feature-card, .process-step, .testimonial-card");
+const revealElements = document.querySelectorAll(".reveal, .practice-card, .feature-card, .process-step");
 if ("IntersectionObserver" in window) {
   const animateStat = (item) => {
     const value = item.querySelector("[data-count-value]");
