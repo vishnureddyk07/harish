@@ -1,8 +1,8 @@
 const siteContent = {
-  name: "[ADVOCATE NAME]",
+  name: "Kathle Harish Kumar",
   city: "[CITY]",
-  phone: "[PHONE NUMBER]",
-  email: "[EMAIL]",
+  phone: "+91 9398294547",
+  email: "kathleharishkumar40@gmail.com",
   address: "[OFFICE ADDRESS]\n[CITY], [STATE]",
   officeHours: "Monday – Saturday · 10:00 AM – 7:00 PM",
   established: "—",
