@@ -7,10 +7,10 @@ const siteContent = {
   officeHours: "Monday – Saturday · 10:00 AM – 7:00 PM",
   established: "—",
   stats: [
-    { value: "15+", label: "Years of experience" },
-    { value: "500+", label: "Cases & matters" },
-    { value: "10+", label: "Practice areas" },
-    { value: "100%", label: "Client focused" }
+    { value: "Clear advice", label: "Straightforward guidance" },
+    { value: "Strategic", label: "Considered legal approach" },
+    { value: "Personal", label: "Focused attention" },
+    { value: "Professional", label: "Integrity in practice" }
   ],
   aboutFacts: [
     { label: "Education", value: "[LL.B / LL.M / Qualification]" },
