@@ -100,7 +100,7 @@ h1 em, h2 em { color: var(--gold); font-weight: 400; }
 .section-lead { max-width: 390px; margin: 0; color: #76776f; font-size: 13px; line-height: 1.9; }
 .trust-heading .section-lead { padding-bottom: 5px; }
 .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 83px; border-top: 1px solid var(--line); }
-.stat-item { min-height: 125px; padding: 27px 20px 10px 0; border-right: 1px solid var(--line); }
+.stat-item { min-width: 0; min-height: 125px; padding: 27px 20px 10px 0; border-right: 1px solid var(--line); }
 .stat-item:not(:first-child) { padding-left: 28px; }
 .stat-item:last-child { border-right: 0; }
 .stat-value { display: block; margin-bottom: 10px; color: var(--ink); font-family: var(--serif); font-size: 36px; line-height: 1; }
@@ -308,7 +308,7 @@ h1 em, h2 em { color: var(--gold); font-weight: 400; }
   .stat-item:not(:first-child) { padding-left: 17px; }
   .stat-item:nth-child(2) { border-right: 0; }
   .stat-item:nth-child(3), .stat-item:nth-child(4) { border-bottom: 0; }
-  .stat-value { font-size: 31px; }
+  .stat-value { font-size: 26px; }
   .about-grid, .profile-grid, .contact-grid { grid-template-columns: 1fr; gap: 45px; }
   .about-visual { width: calc(100% - 20px); max-width: none; margin: 0 auto; padding: 0 20px 24px 0; }
   .about-image { height: 370px; }

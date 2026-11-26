@@ -8,14 +8,13 @@ const siteContent = {
   established: "—",
   stats: [
     { value: "Clear advice", label: "Straightforward guidance" },
-    { value: "Strategic", label: "Considered legal approach" },
+    { value: "Strategy", label: "Considered legal approach" },
     { value: "Personal", label: "Focused attention" },
-    { value: "Professional", label: "Integrity in practice" }
+    { value: "Integrity", label: "Professional practice" }
   ],
   aboutFacts: [
-    { label: "Education", value: "[LL.B / LL.M / Qualification]" },
-    { label: "Experience", value: "[YEARS OF EXPERIENCE]" },
-    { label: "Court practice", value: "[COURTS / JURISDICTION]" },
+    { label: "Profession", value: "Advocate & Legal Consultant" },
+    { label: "Location", value: "Hyderabad" },
     { label: "Legal philosophy", value: "Clarity, care & integrity" }
   ],
   practiceAreas: [
@@ -41,11 +40,9 @@ const siteContent = {
     { title: "REPRESENTATION", description: "Provide continued legal support and representation." }
   ],
   profile: [
-    { label: "Education", value: "[LL.B / LL.M / Qualification]" },
-    { label: "Bar enrollment", value: "[ENROLLMENT NUMBER]" },
-    { label: "Practice", value: "[COURTS / JURISDICTION]" },
-    { label: "Experience", value: "[YEARS OF EXPERIENCE]" },
-    { label: "Areas", value: "[PRACTICE AREAS]" }
+    { label: "Profession", value: "Advocate & Legal Consultant" },
+    { label: "Location", value: "Hyderabad" },
+    { label: "Contact", value: "Phone or email" }
   ]
 };
 
